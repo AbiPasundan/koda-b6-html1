@@ -60,6 +60,7 @@
     <!-- ada tag tr dan tag td -->
     <!-- colspan -->
 
+
     <table border="1" align="center">
         <thead bgcolor="grey">
             <tr>
@@ -96,6 +97,48 @@
             </tr>
         </tfoot>
     </table>
+
+    <!-- form terdiri dari beberapa bagian tag -->
+    <!-- setiap input harus ada di dalam tag form  -->
+    <!-- form tidak bole ada di dalam form lain like paraghraph  -->
+    <form action="" method="get" class="form">
+        <div class="form">
+            <div>
+                <div>
+                    <label for="name">Name: </label>
+                </div>
+                <div>
+                    <input type="text" name="name" id="name" required />
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div>
+                <label for="email">Email: </label>
+            </div>
+            <div>
+                <input type="email" name="email" id="email" required />
+            </div>    
+        </div>
+        <div class="form">
+            <div>
+                <label for="nationality">Nationality</label>
+            </div>
+            <div>
+                <select name="nationality" id="nationality">
+                    <option value="Indonesia" > Indonesia </option>
+                    <option value="Malaysia" > Malaysia </option>
+                    <option value="Thailand" > Thailand </option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="form">
+            <input type="submit" value="hahha!" />
+            <input type="reset" value="reset!" />
+        </div>
+    </form>
+
 
 </body>
 </html>
