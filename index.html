@@ -13,6 +13,90 @@
     <mark>text penting</mark>
     <font size="20">text besar</font>
     <br> <!-- garis baru -->
+    <br><br><br>
+    <p>
+        dua bentuk penulisan tag 
+        <ul>
+            <li>Pairde</li>
+            <li>self closing / void</li>
+        </ul>
+
+        Pairde: memaut konten => p tag
+        self closing: berdiri sendiri => br tag
+    </p>
+    
+    <br><br><br>
+    
+    <p>
+        setiap element tags memiliki atribut yang berbeda. 
+        ada juga yang memiliki tag yang serupa 
+    </p>
+    <p>
+        attrubute yang bisa ada di setiap tag html || golbal attribute
+        <ul>
+            <li>class, id, etc</li>
+            <li>style</li>
+        </ul>
+    </p>
+    <br><br><br>
+    <p>
+        attrubute yang hanya ada pada beberapa tag html
+        <ul>
+            <li>src => img, link</li>
+            <li>type => input etc</li>
+        </ul>
+    </p>
+    <br><br><br>
+    <h2 align="center">Layouting</h2>
+    <!-- div tiga bole ada di dalam tag void -->
+    <!-- satu div satu baris -->
+    <!-- img ada 2attribute wajib pada tag img yaitu alt dan src -->
+    <!-- src memberikan acuan terhadap file yang akan ditampilkan -->
+    <!-- alt untuk memberikna text alternatif jika gambar tidak berhasil dimuat -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/250px-A_small_cup_of_coffee.JPG" alt="kopi">
+
+    <!-- table adalah satu kesatuan tidak bisa berdiri sendiri -->
+    <!-- ada tag table ada tag table thead ada tag tbody -->
+    <!-- ada tag tr dan tag td -->
+    <!-- colspan -->
+
+    <table border="1" align="center">
+        <thead bgcolor="grey">
+            <tr>
+                <th colspan="2">
+                    Produck
+                </th>
+                <th rowspan="2">Age</th>
+                <!-- <th colspan="2">
+                    <th>Name</th>
+                    <th>Spek</th>
+                </th> -->
+            </tr>
+        </thead>
+        <tbody bgcolor="aqua">
+            <tr>
+                <td>Maria Sanchez</td>
+                <td>Strong and Clever</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>Just Trash</td>
+                <td>34</td>
+            </tr>
+        </tbody>
+        <tfoot bgcolor="grey">
+            <tr>
+                <th colspan="2">
+                    Produck
+                    <!-- <th>Name</th>
+                    <th>Spek</th> -->
+                </th>
+                <th>Age</th>
+            </tr>
+        </tfoot>
+    </table>
+
 </body>
 </html>
 
